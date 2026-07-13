@@ -1,0 +1,38 @@
+{
+  "name": "memory-reading",
+  "version": "0.1.0",
+  "description": "Recommend what to read next from relevant user memory, current goals, and verified book evidence.",
+  "author": {
+    "name": "Fov6363",
+    "url": "https://github.com/Fov6363"
+  },
+  "homepage": "https://github.com/Fov6363/memory-reading-skill",
+  "repository": "https://github.com/Fov6363/memory-reading-skill",
+  "license": "MIT-0",
+  "keywords": [
+    "books",
+    "reading",
+    "recommendation",
+    "memory",
+    "personalization"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Memory Reading",
+    "shortDescription": "Recommend the right book for what matters now.",
+    "longDescription": "Uses only relevant user context and available memory, verifies real book information, and recommends the next book with a transparent why-now rationale.",
+    "developerName": "Fov6363",
+    "category": "Education",
+    "capabilities": [
+      "Memory-aware recommendations",
+      "Verified book research",
+      "Reading guidance"
+    ],
+    "websiteURL": "https://github.com/Fov6363/memory-reading-skill",
+    "defaultPrompt": [
+      "根据你对我的相关记忆，推荐我现在最值得读的一本书。",
+      "结合我最近反复遇到的问题，推荐下一本书并解释为什么是现在。",
+      "从我的目标和阅读历史出发，给我一个稳妥选择和一个探索选择。"
+    ]
+  }
+}

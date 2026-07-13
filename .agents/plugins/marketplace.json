@@ -1,0 +1,20 @@
+{
+  "name": "memory-reading",
+  "interface": {
+    "displayName": "Memory Reading"
+  },
+  "plugins": [
+    {
+      "name": "memory-reading",
+      "source": {
+        "source": "local",
+        "path": "./plugins/memory-reading"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education"
+    }
+  ]
+}

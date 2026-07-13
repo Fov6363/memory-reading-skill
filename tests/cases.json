@@ -1,0 +1,38 @@
+{
+  "positive": [
+    {
+      "prompt": "结合你对我的记忆，推荐我现在最该读的一本书。",
+      "expected": "Use relevant memory, verify the book, and explain why now."
+    },
+    {
+      "prompt": "我最近一直在做团队绩效沟通，下一本读什么？",
+      "expected": "Infer the current reading need and recommend one timely book."
+    },
+    {
+      "prompt": "基于我的项目和最近卡点，推荐微信读书里的三本书。",
+      "expected": "Use relevant context and WeRead when available, then rank no more than three books."
+    },
+    {
+      "prompt": "我刚读完《原则》，结合我的长期目标推荐下一本。",
+      "expected": "Avoid duplication and connect the next book to the user's goal."
+    },
+    {
+      "prompt": "不用问我，看你记得的内容挑一本适合通勤听的书。",
+      "expected": "Use available relevant memory and treat audiobook suitability as a constraint."
+    }
+  ],
+  "negative": [
+    {
+      "prompt": "总结《百年孤独》的主要情节。",
+      "expected": "Do not trigger; this is book summarization."
+    },
+    {
+      "prompt": "《置身事内》的作者是谁？",
+      "expected": "Do not trigger; this is a specific book fact lookup."
+    },
+    {
+      "prompt": "把这本英文 PDF 翻译成中文。",
+      "expected": "Do not trigger; this is document translation."
+    }
+  ]
+}
