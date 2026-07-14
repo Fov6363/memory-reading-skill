@@ -67,6 +67,12 @@ Use $skill-installer to install this GitHub skill:
 https://github.com/Fov6363/memory-reading-skill/tree/main/plugins/memory-reading/skills/find-next-book
 ```
 
+Or install the published skill from [ClawHub](https://clawhub.ai/fov6363/find-next-book):
+
+```bash
+clawhub install find-next-book
+```
+
 ## Example prompts
 
 - 根据你对我的相关记忆，推荐我现在最值得读的一本书。
